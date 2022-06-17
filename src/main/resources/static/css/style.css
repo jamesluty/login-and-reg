@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.mainWrapper {
+	margin: 40px;
+}
+
+.title {
+	color: rebeccapurple;
+}
+
+.bodyWrapper {
+	display: flex;
+	gap: 100px;
+	margin-top: 30px;
+	width: 75%;
+}
+
+.register, .login {
+	flex: 1;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+.formItem {
+	display: flex;
+	margin-top: 10px;
+}
+
+.formItem label {
+	flex: 1;
+}
+
+.formItem input {
+	flex: 2;
+}
+
+.errors {
+	color: red;
+}
+
+.btn {
+	display: flex;
+	justify-content: right;
+	margin-top: 10px;
+}
